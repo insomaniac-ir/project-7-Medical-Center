@@ -31,7 +31,7 @@ header{
 }
 /*----------- navbar -----------*/
 .header-top{
-    position: sticky;
+    position: fixed;
     top: 0;
     background:rgba(13,70,83,0.78);
     width: 100%;
@@ -47,7 +47,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
 }
 .navbar-logo{
     order: 1;
@@ -72,7 +71,7 @@ header{
     transition: all 0.6s;
 }
 .menu-item:hover .menu-link{
-    border-bottom: 1px solid #626262;
+    border-bottom: 1px solid #f1da09;
 }
 
 /*----------- header bottom -----------*/
@@ -105,3 +104,47 @@ header{
     color:rgba(12,184,182,0.91);
     background-color: #fff;
 }
+/* ----- header Ended --------*/
+
+/* ----- main starts --------*/
+
+/* ----- Services--------*/
+.services{
+    margin-top: 40px;
+}
+.service-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,345px);
+    grid-template-rows: repeat(2,233px);
+    gap: 30px;
+}
+.service-item{
+
+}
+.service-item div{
+    font-size:  2rem;
+    margin-bottom: 1rem;
+    color: #0083c8;
+}
+.service-item__icon{
+
+}
+.service-item__title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.service-item__disc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #6c6a6d;
+    font-size: .8rem;
+    font-weight: 600;
+    line-height: 20px;
+    text-overflow: ellipsis;
+}
+.service-item3 .service-item__title{
+    border-bottom: 2px solid gold;
+}
+
+/* ----- Time Table--------*/
