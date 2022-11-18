@@ -1,0 +1,107 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Samim', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* ----- header starts --------*/
+header{
+    background: linear-gradient(rgba(13,70,83,0.78),rgba(13,70,83,0.78)),url("../img/bg-banner.jpg") center center/cover;
+    height: 600px;
+}
+/*----------- navbar -----------*/
+.header-top{
+    position: sticky;
+    top: 0;
+    background:rgba(13,70,83,0.78);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.header__icon{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+.navbar-logo{
+    order: 1;
+    width:70px;
+}
+.navbar-logo .logo{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 30px;
+    transition: all 0.3s;
+}
+.menu-link{
+    color: #fff;
+    padding-bottom: 2px;
+    transition: all 0.6s;
+}
+.menu-item:hover .menu-link{
+    border-bottom: 1px solid #626262;
+}
+
+/*----------- header bottom -----------*/
+.header-bottom{
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+}
+.header-img{
+
+}
+.header-title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.header-txt{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.header-btn{
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 15px 20px;
+    color: #fff;
+    background-color:rgba(12,184,182,0.91);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.header-btn:hover{
+    color:rgba(12,184,182,0.91);
+    background-color: #fff;
+}
