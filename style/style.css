@@ -148,3 +148,49 @@ header{
 }
 
 /* ----- Time Table--------*/
+.table{
+
+}
+.table-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,250px);
+    gap: 1px;
+    margin-top: 100px;
+}
+table,td{
+    border:1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    color: #fff;
+    border: 0px solid #ededed;
+    border-top: 1px solid rgba(216,216,216,0.6);
+    padding: 2px 50px 2px 45px;
+}
+.table-item{
+    background-color: #0cb8b6;
+    padding: 0 10px 10px 10px;
+    text-align: right;
+}
+.table-title{
+    margin-top: 20px;
+    color: #fff;
+    padding: 30px 0 10px 10px;
+    font-size: 1.3rem;
+}
+.table-disc{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 25px;
+}
+.table-more{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 12px;
+}
