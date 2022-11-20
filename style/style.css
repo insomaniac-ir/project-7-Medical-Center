@@ -361,3 +361,71 @@ td{
     color: rgba(231, 228, 228, 0.692);
     text-align: justify;
 }
+
+/* ----- contact--------*/
+
+.contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-title{
+    padding-bottom: 10px;
+    border-bottom: 2px solid gold;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 50px;
+    align-items: baseline;
+}
+.contact-form{
+
+}
+
+.contact-form__title{
+    font-size: 25px;
+    padding: 10px 0 35px 0;
+}
+.contact-form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid #999999;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 80%);
+}
+.contact-form textarea{
+    resize: none;
+    margin-bottom: 25px;
+    border: 1px solid #999999;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 80%);
+}
+.contact-form input[type=button]{
+    background-color: #0083c8 !important;
+    color: #fff;
+    max-width: 100px;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 80%);
+    transition: 0.3s;
+}
+.contact-form input[type=button]:hover{
+    opacity: 0.8;
+}
+.contact-info{
+
+}
+.contact-info__title{
+    margin-bottom: 23px;
+}
+.contact-info address{
+    color: #999999;
+    font-size: 1rem;
+    padding-bottom: 23px;
+}
+.contact-info address i{
+    margin-left: 20px;
+}
