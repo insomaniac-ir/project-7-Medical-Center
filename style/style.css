@@ -238,6 +238,7 @@ td{
 /* ----- ABout--------*/
 .about{
     margin-top: 40px;
+    padding-bottom: 40px;
 }
 .about-title{
     padding-bottom: 10px;
@@ -284,6 +285,8 @@ td{
 
 .testimonial{
     background-color: #eeeeee;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .testimonial-title{
     padding-bottom: 10px;
@@ -319,6 +322,8 @@ td{
 }
 .testimonial-info{
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .testimonial-info__person{
     font-weight: bolder;
@@ -336,3 +341,23 @@ td{
 }
 
 /* ----- Testimonials--------*/
+
+.aboutus{
+    background-color: rgb(41,48,46);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aboutus-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutus-title{
+    font-size: 28px;
+    color: #fff;
+}
+.aboutus-txt{
+    width: 390px;
+    line-height: 25px;
+    color: rgba(231, 228, 228, 0.692);
+    text-align: justify;
+}
