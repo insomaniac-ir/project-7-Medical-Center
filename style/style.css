@@ -429,3 +429,77 @@ td{
 .contact-info address i{
     margin-left: 20px;
 }
+
+/* ----- main ended--------*/
+
+/* ----- footer starts--------*/
+
+footer{
+    background-color: #325C6A;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.footer-follow{
+
+}
+.footer-title{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.footer-follow__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-follow__icon{
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+
+.footer-follow__link{
+    color: #fff;
+    transition: all 0.5s;
+}
+.footer-follow__link:hover{
+    
+}
+.footer-links{
+
+}
+.footer-links__wrapper{
+
+}
+.footer-links__item{
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+}
+.footer-links__link{
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.footer-about{
+
+}
+.footer-about__txt{
+    max-width: 400px;
+    text-align: justify;
+    color: #999999;
+    line-height: 25px;
+}
+
+/* ----- copyright--------*/
+.footer-copyright{
+    border-top: 1px solid #999999;
+}
+.copyright-text{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
